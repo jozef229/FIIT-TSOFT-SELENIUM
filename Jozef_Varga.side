@@ -1,0 +1,343 @@
+{
+  "id": "7c30fdbe-b0da-4e51-a1f9-03573a6b14ac",
+  "version": "2.0",
+  "name": "TSOFT_VARGA",
+  "url": "https://www.google.sk/",
+  "tests": [{
+    "id": "14764015-9ae7-49b0-bc96-07b66d5aab28",
+    "name": "Alza_mobil",
+    "commands": [{
+      "id": "b754617e-7a13-49e9-a6bd-7cae5c7ed3e6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "250a9209-05eb-4d85-b905-fd13e507d113",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "840x1027",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f3ee889-6a0e-43cd-b6c9-ee9ed89ab3ba",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "alza.sk"
+    }, {
+      "id": "24f4b8ba-cdce-4c67-baf3-e301819099d7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a9c84522-5b0e-4225-80fd-02941ba6fca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g > div > .rc .LC20lb",
+      "targets": [
+        ["css=.g > div > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Alza.sk - najväčší obchod s počítačmi a elektronikou | Alza.sk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5279a2a-8efc-44cb-8d88-08af51b072a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobilné telefóny",
+      "targets": [
+        ["linkText=Mobilné telefóny", "linkText"],
+        ["css=#litp18843445 > .bx > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobilné telefóny')]", "xpath:link"],
+        ["xpath=//li[@id='litp18843445']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobily/18843445.htm')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobilné telefóny')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bfc14a9-df33-4580-9f6e-4d26dac11825",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mobily')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "763870b5-032d-4667-82f6-e3522febe1dd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mobily')]", "xpath:innerText"]
+      ],
+      "value": "Mobily"
+    }, {
+      "id": "d9c702cd-2a89-45b2-806e-3149ddfb7495",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logo > a",
+      "targets": [
+        ["css=#logo > a", "css:finder"],
+        ["xpath=//div[@id='logo']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "859f2089-42ea-491f-9660-5602d371069f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=PotravinyNOVÉ",
+      "targets": [
+        ["linkText=PotravinyNOVÉ", "linkText"],
+        ["css=#litp18876334 > .bx > a", "css:finder"],
+        ["xpath=//li[@id='litp18876334']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/potraviny/18876334.htm')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PotravinyNOVÉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21371f9-0114-4cd9-80a0-df7264734b93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=PotravinyNOVÉ",
+      "targets": [
+        ["linkText=PotravinyNOVÉ", "linkText"],
+        ["css=#litp18876334 > .bx > a", "css:finder"],
+        ["xpath=//li[@id='litp18876334']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/potraviny/18876334.htm')]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PotravinyNOVÉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42630ec5-75dc-4868-9b19-264561c6cfb5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ihneď k odberu NOVÉ",
+      "targets": [
+        ["linkText=Ihneď k odberu NOVÉ", "linkText"],
+        ["css=#litp18874979 > .bx > a", "css:finder"],
+        ["xpath=//li[@id='litp18874979']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/darky-ihned')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ihneď k odberu NOVÉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c168d4-7f2a-421f-81a5-64b737ac430a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ihneď k odberu NOVÉ",
+      "targets": [
+        ["linkText=Ihneď k odberu NOVÉ", "linkText"],
+        ["css=#litp18874979 > .bx > a", "css:finder"],
+        ["xpath=//li[@id='litp18874979']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/darky-ihned')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ihneď k odberu NOVÉ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5f97679-5b09-4325-b7a0-7c255608c674",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Notebooky",
+      "targets": [
+        ["linkText=Notebooky", "linkText"],
+        ["css=#litp18842920 > .bx > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Notebooky')]", "xpath:link"],
+        ["xpath=//li[@id='litp18842920']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/notebooky/18842920.htm')]", "xpath:href"],
+        ["xpath=//li[9]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Notebooky')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7907ef8a-7ae0-4990-8bc6-03410140b7e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top .subC:nth-child(7) .text",
+      "targets": [
+        ["css=.top .subC:nth-child(7) .text", "css:finder"],
+        ["xpath=//div[@id='content0']/div/div[2]/div[3]/div/div/a[7]/span/span/span", "xpath:idRelative"],
+        ["xpath=//a[7]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65f550d5-d2fb-4167-b98f-c4164af0eeaa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MacBook Air 13\" Retina SK Vesmírne sivý 2019",
+      "targets": [
+        ["linkText=MacBook Air 13\" Retina SK Vesmírne sivý 2019", "linkText"],
+        ["css=.index-0 .bt1", "css:finder"],
+        ["xpath=(//a[contains(text(),'MacBook Air 13\" Retina SK Vesmírne sivý 2019')])[6]", "xpath:link"],
+        ["xpath=//div[@id='besti']/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/macbook-air-13-retina-sk-vesmirne-sivy-2019-d5638367.htm')])[12]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42fc025d-d075-4cc6-8c9f-9dcff920e771",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'MacBook')]", "xpath:innerText"]
+      ],
+      "value": "6,18"
+    }, {
+      "id": "bb820001-c72e-49dc-9a14-cf8aaf9b0539",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'MacBook')]", "xpath:innerText"]
+      ],
+      "value": "6,18"
+    }, {
+      "id": "22894b87-1e61-46be-997b-6c43a5b43c2c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'MacBook')]", "xpath:innerText"]
+      ],
+      "value": "6,18"
+    }, {
+      "id": "d5c6f5b4-d166-47bc-bc9d-fbedf374706b",
+      "comment": "",
+      "command": "click",
+      "target": "id=h1cc",
+      "targets": [
+        ["id=h1cc", "id"],
+        ["css=#h1cc", "css:finder"],
+        ["xpath=//div[@id='h1cc']", "xpath:attributes"],
+        ["xpath=//div[@id='categoryAnotationBlock']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08cf4fe4-6ad9-489c-b03f-6c11e90c504f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'MacBook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a517fbeb-3541-4df0-89dc-c878b32a77d1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'MacBook')]", "xpath:innerText"]
+      ],
+      "value": "MacBook"
+    }, {
+      "id": "600dbbaf-4a17-45b8-a04f-36e15a5936e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=hlCommodityStatusAll",
+      "targets": [
+        ["id=hlCommodityStatusAll", "id"],
+        ["css=#hlCommodityStatusAll", "css:finder"],
+        ["xpath=//label[@id='hlCommodityStatusAll']", "xpath:attributes"],
+        ["xpath=//div[@id='parametrization']/div/div[2]/div[2]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Všetko')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc38f20-7027-44b7-95c0-337328d3422d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.apple-polozka:nth-child(1) .lazyloaded",
+      "targets": [
+        ["css=.apple-polozka:nth-child(1) .lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='MacBook Air Retina 13']", "xpath:img"],
+        ["xpath=//div[@id='categoryUpperDescription']/div[2]/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7000a866-74b9-4442-9b8b-dc13fc363545",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Macbook Air Retina 13\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76b34edb-ce30-487a-81f2-f34209165a21",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='h1c']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Macbook Air Retina 13\"')]", "xpath:innerText"]
+      ],
+      "value": "Macbook Air Retina 13\""
+    }]
+  }],
+  "suites": [{
+    "id": "91bf8d25-e401-4d0d-ae16-8b206649af2f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.sk/", "http://dev.animalrescue.sk/"],
+  "plugins": []
+}
